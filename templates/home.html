@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+
+    <!-- scripts for icons -->
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- connecting to css -->
+    <link rel="stylesheet" href="static/style1.css">
+    
+    <title>
+    	Estate Evaluation Prediction
+    </title>
+
+	</head>
+<body background="https://bit.ly/2nbywwO">
+
+
+<div class="vertical">
+	<i><b><font size="5">Real Estate Prediction</font></b></i>
+</div>
+
+<div class="box">
+
+
+			<font size="4">
+			<form action="{{ url_for('predict')}}"method="post">
+			Transaction year: <input type="text" name="dtd" placeholder="Yr e.g 2009"><br>
+			House Age : <input type="int" name="age" placeholder="Int e.g 19"><br>
+			No of Nearest Station Needed : <input type="int" name="station" placeholder="Int e.g 90"><br>
+			Nearby Stores Needed : <input type="int" name="store" placeholder="Int e.g 9"><br>
+			Latitude : <input type="int" name="lat" placeholder="Int e.g 95"><br>
+			Longitude : <input type="int" name="log" placeholder="Int e.g 59"><br>
+			<form action="{{ url_for('predict')}}"method="post"></font>
+			<button type="submit">Predict</button>
+			</form>
+			</form>
+	</div>
+
+<div class="final_text">
+	{{ prediction_text }}
+</div>
+
+<div class="line-break"></div>
+
+<div class="me">
+	©Prasad Patil  
+	<a href="https://linkedin.com/in/prasadpatil99" target=_blank><i class='fab fa-linkedin' style='font-size:18px;color:blue'></i></a>
+	<a href="https://github.com/prasadpatil99" target=_blank><i class="fa fa-github" aria-hidden="true"></i></a>
+	<a href="https://kaggle.com/prasadpatil99" target=_blank><i class='fab fa-kaggle' style='font-size:18px;color:blue'></i></a>
+</div>
+
+</body>
+</html>
+
+ 

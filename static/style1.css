@@ -1,0 +1,76 @@
+/*background image*/
+body{
+  margin: 0;
+  padding: 0;
+  background: url(https://bit.ly/2nbywwO) no-repeat;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*transparent box*/
+.box{
+   width: 400px;
+   height: 170px;
+   background: rgba(0,0,0,0.5);
+   color: #fff;
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+}
+
+/*head text*/
+.vertical{
+    width:300px;
+    height:250px;
+    left:610px;
+    top:250px;
+    position:absolute;
+    text-align-last:center;
+    color:black
+}
+
+/*last line's text*/
+.final_text
+{
+    width:750px;
+    height:50px;
+    left:375px;
+    top:470px;
+    position:absolute;
+    text-align-last:center;
+}
+
+/*breaking line*/
+.line-break{
+    width: 920px;
+    margin: 490px; 
+    border-bottom: 1px solid white;
+    margin: 1em 100;
+    padding: 1000;
+    display: block;
+}
+
+/*text*/
+.me{
+    width:800px;
+    height:25px;
+    left:550px;
+    top:470px;
+    position:absolute;
+    text-align-last:right;
+    color:black
+}
+
+/*icon*/
+.icon{
+    color: white;
+    width: 50%;
+    height: 50%;
+    margin-top: 8%;
+    margin-left: 7.5%;
+    font-size: 1em;
+    background-size: 120%;
+}

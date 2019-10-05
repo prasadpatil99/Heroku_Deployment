@@ -5,5 +5,4 @@ scipy>=0.15.1
 scikit-learn>=0.18
 matplotlib>=1.4.3
 pandas>=0.19
-DecisionTreeRegressor==0.21.2
-RandomForestRegressor==0.21.2
+setuptools==0.7.3

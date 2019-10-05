@@ -6,4 +6,7 @@ scikit-learn>=0.18
 matplotlib>=1.4.3
 pandas>=0.19
 setuptools==0.7.3
-DISTRIBUTE_VERSION="0.6.45"
+itsdangerous==1.1.0
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+Werkzeug==0.15.5

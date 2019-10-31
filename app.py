@@ -23,7 +23,7 @@ def predict():
     final_features = np.asarray(a)
     prediction = model.predict(final_features)
     output = round(prediction[0], 2)
-  return render_template('home.html', prediction_text='Unit Area of House Price is {}'.format(output))
+  return render_template('home.html', prediction_text='House price per unit are is {}'.format(output))
 
 if __name__ == "__main__":
     app.run(debug=True)

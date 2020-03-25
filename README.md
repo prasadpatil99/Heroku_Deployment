@@ -4,8 +4,8 @@ Python model trained via *Random Forest Classification Algorithm*<br>
 Dataset can be obtained from [here](https://archive.ics.uci.edu/ml/machine-learning-databases/00477/Real%20estate%20valuation%20data%20set.xlsx). 
 ## [Preview](http://house-prediction-ml.herokuapp.com/) 
 ![img](https://raw.githubusercontent.com/prasadpatil99/heroku_deployment/master/asset/Preview.png)
-## Reference
-https://stackabuse.com/deploying-a-flask-application-to-heroku/ <br>
-https://stackoverflow.com/q/50146815/
+## Reference 
+https://stackoverflow.com/q/50146815/<br>
+https://stackabuse.com/deploying-a-flask-application-to-heroku/
 ## Author
 - Prasad Patil
